@@ -135,8 +135,8 @@
     <entry lang="sv" key="IDC_FAVORITE_REMOVE">&amp;Ta bort</entry>
     <entry lang="sv" key="IDC_FAVORITE_USE_LABEL_IN_EXPLORER">Använd favoritetikett som Utforskarens volymetikett</entry>
     <entry lang="sv" key="IDC_FAV_VOL_OPTIONS_GLOBAL_SETTINGS_BOX">Globala inställningar</entry>
-    <entry lang="sv" key="IDC_HK_UNMOUNT_BALLOON_TOOLTIP">Visa ett systemmeddelande efter demontering med snabbtangent</entry>
-    <entry lang="sv" key="IDC_HK_UNMOUNT_PLAY_SOUND">Spela upp ett systemaviseringsljud efter demontering med snabbtangent</entry>
+    <entry lang="sv" key="IDC_HK_UNMOUNT_BALLOON_TOOLTIP">Visa ett systemmeddelande efter en slutförd demontering med snabbtangent</entry>
+    <entry lang="sv" key="IDC_HK_UNMOUNT_PLAY_SOUND">Spela upp ett systemaviseringsljud efter en slutförd demontering med snabbtangent</entry>
     <entry lang="sv" key="IDC_HK_MOD_ALT">Alt</entry>
     <entry lang="sv" key="IDC_HK_MOD_CTRL">Ctrl</entry>
     <entry lang="sv" key="IDC_HK_MOD_SHIFT">Skift</entry>
@@ -166,7 +166,7 @@
     <entry lang="sv" key="IDC_PREF_LOGON_START">Starta VeraCrypt-bakgrundsuppgift</entry>
     <entry lang="sv" key="IDC_PREF_MOUNT_READONLY">Montera volymer som skrivskyddade</entry>
     <entry lang="sv" key="IDC_PREF_MOUNT_REMOVABLE">Montera volymer som borttagningsbara medier</entry>
-    <entry lang="sv" key="IDC_PREF_OPEN_EXPLORER">Öppna Utforskaren för den monterade volymen</entry>
+    <entry lang="sv" key="IDC_PREF_OPEN_EXPLORER">Öppna Utforskaren för volymen när den har monterats</entry>
     <entry lang="sv" key="IDC_PREF_TEMP_CACHE_ON_MULTIPLE_MOUNT">Lagra lösenordet tillfälligt i cache under "Montera favoritvolymer"-operationer</entry>
     <entry lang="sv" key="IDC_PREF_USE_DIFF_TRAY_ICON_IF_VOL_MOUNTED">Använd en annan aktivitetsfältsikon när det finns monterade volymer</entry>
     <entry lang="sv" key="IDC_PREF_WIPE_CACHE_ON_AUTOUNMOUNT">Rensa cachelagrade lösenord vid automatisk demontering</entry>
@@ -288,7 +288,7 @@
     <entry lang="sv" key="IDT_MOUNT_LETTER">Montera volym som enhetsbokstav:</entry>
     <entry lang="sv" key="IDT_MOUNT_SETTINGS">Monteringsinställningar</entry>
     <entry lang="sv" key="IDT_NEW">Nytt</entry>
-    <entry lang="sv" key="IDT_NEW_PASSWORD">Nytt lösenord:</entry>
+    <entry lang="sv" key="IDT_NEW_PASSWORD">Lösenord:</entry>
     <entry lang="sv" key="IDT_PARALLELIZATION_OPTIONS">Trådbaserad parallellism</entry>
     <entry lang="sv" key="IDT_PKCS11_LIB_PATH">PKCS #11-bibliotekssökväg</entry>
     <entry lang="sv" key="IDT_KDF">KDF:</entry>
@@ -1439,7 +1439,7 @@ VARNING: När du har följt dessa steg måste volymlösenordet alltid anges med 
     <entry lang="sv" key="IDC_ALLOW_WINDOWS_DEFRAG">Tillåt Windows-diskdefragmenterare att defragmentera icke-systempartition/enhet</entry>
     <entry lang="sv" key="CONFIRM_ALLOW_WINDOWS_DEFRAG">VARNING: Defragmentering av icke-systempartitioner/enheter kan läcka metadata om deras innehåll eller orsaka problem med dolda volymer som de kan innehålla.\n\nFortsätt?</entry>
     <entry lang="sv" key="VIRTUAL_DEVICE">Virtuell enhet</entry>
-    <entry lang="sv" key="MOUNTED_VOLUME_NOT_ASSOCIATED">Den valda monterade volymen är inte associerad med dess enhetsbokstav i Windows och kan därför inte öppnas i Utforskaren i Windows.</entry>
+    <entry lang="sv" key="MOUNTED_VOLUME_NOT_ASSOCIATED">Den valda monterade volymen är inte kopplad till sin enhetsbokstav i Windows och kan därför inte öppnas i Utforskaren.</entry>
     <entry lang="sv" key="IDC_CLEAR_KEYS_ON_NEW_DEVICE_INSERTION">Rensa krypteringsnycklar från minnet om en ny enhet sätts in</entry>
     <entry lang="sv" key="CLEAR_KEYS_ON_DEVICE_INSERTION_WARNING">VIKTIGA ANMÄRKNINGAR:\n - Tänk på att det här alternativet inte kommer att kvarstå efter en avstängning/omstart så du måste välja det igen nästa gång maskinen startas.\n\n - Med det här alternativet aktiverat och efter en ny enhet är ansluten, kommer maskinen att frysa och den kommer så småningom att krascha med en BSOD eftersom Windows inte kan komma åt den krypterade disken efter att dess nycklar har raderats från minnet.\n</entry>
     <entry lang="sv" key="STARTING">Startar</entry>
@@ -1541,7 +1541,7 @@ VARNING: När du har följt dessa steg måste volymlösenordet alltid anges med 
 
 Möjliga lösningar:
 - Uppgradera Linux-kärnan till version 2.6.33 eller senare.
-- Inaktivera kärnans kryptografiska tjänster (Inställningar &gt; Systemintegration) eller använd monteringsalternativet "nokernelcrypto" på kommandoraden.</entry>
+- Inaktivera kärnans kryptografiska tjänster (Inställningar &gt; Alternativ &gt; Systemintegration) eller använd monteringsalternativet "nokernelcrypto" på kommandoraden.</entry>
     <entry lang="sv" key="LINUX_EX2MSG_LOOPDEVICESETUPFAILED">Det gick inte att konfigurera en loopenhet.</entry>
     <entry lang="sv" key="LINUX_EX2MSG_MISSINGARGUMENT">Ett obligatoriskt argument saknas.</entry>
     <entry lang="sv" key="LINUX_EX2MSG_MISSINGVOLUMEDATA">Volymdata saknas.</entry>
@@ -1558,7 +1558,7 @@ Möjliga lösningar:
     <entry lang="sv" key="LINUX_EX2MSG_STRINGFORMATTEREXCEPTION">Fel vid analys av formaterad sträng.</entry>
     <entry lang="sv" key="LINUX_EX2MSG_TEMPORARYDIRECTORYFAILURE">Det gick inte att skapa en fil eller mapp i en temporär mapp.\n\nSe till att den temporära mappen finns, att dess säkerhetsbehörigheter tillåter dig att komma åt den och att det finns tillräckligt med diskutrymme.</entry>
     <entry lang="sv" key="LINUX_EX2MSG_UNSUPPORTEDSECTORSIZEHIDDENVOLUMEPROTECTION">Fel: Enheten använder en annan sektorstorlek än 512 byte.\n\nPå grund av begränsningar av komponenter som är tillgängliga på din plattform, kan yttre volymer som finns på enheten inte monteras med dolt volymskydd.\n\nMöjliga lösningar:\n- Använd en enhet med 512-byte sektorer.\n- Skapa en filvärdad volym (behållare) på enheten.\n- Säkerhetskopiera innehållet i den dolda volymen och uppdatera sedan den yttre volymen.</entry>
-    <entry lang="sv" key="LINUX_EX2MSG_UNSUPPORTEDSECTORSIZENOKERNELCRYPTO">Fel: Enheten använder en annan sektorstorlek än 512 byte.\n\nPå grund av begränsningar av komponenter som är tillgängliga på din plattform kan partitions-/enhetsvärdade volymer på enheten endast monteras med hjälp av kärnkrypteringstjänster.\n\nMöjliga lösningar: \n- Aktivera användning av kärnans kryptografiska tjänster (Inställningar &gt; Systemintegration).\n- Använd en enhet med 512-byte sektorer.\n- Skapa en filvärdad volym (behållare) på enheten.</entry>
+    <entry lang="sv" key="LINUX_EX2MSG_UNSUPPORTEDSECTORSIZENOKERNELCRYPTO">Fel: Enheten använder en annan sektorstorlek än 512 byte.\n\nPå grund av begränsningar hos komponenterna på din plattform kan partitions-/enhetsvärdade volymer på enheten endast monteras med hjälp av kärnans kryptografiska tjänster.\n\nMöjliga lösningar:\n- Aktivera kärnans kryptografiska tjänster (Alternativ &gt; Systemintegration).\n- Använd en enhet med 512-byte sektorer.\n- Skapa en filvärdad volym (behållare) på enheten.</entry>
     <entry lang="sv" key="LINUX_EX2MSG_UNSUPPORTEDSECTORSIZE">Fel: Enheten använder en annan sektorstorlek än 512 byte.\n\nPå grund av begränsningar av komponenter som är tillgängliga på din plattform kan partitions-/enhetsvärdade volymer inte skapas/användas på enheten.\n\nMöjliga lösningar:\n- Skapa en filvärdad volym (behållare) på enheten.\n- Använd en enhet med 512-byte sektorer.\n- Använd VeraCrypt på en annan plattform.</entry>
     <entry lang="sv" key="LINUX_EX2MSG_VOLUMEHOSTINUSE">Värdfilen/-enheten används redan.</entry>
     <entry lang="sv" key="LINUX_EX2MSG_VOLUMESLOTUNAVAILABLE">Volymplatsen är inte tillgänglig.</entry>
@@ -1689,7 +1689,7 @@ Välj en annan monteringspunkt.</entry>
     <entry lang="sv" key="FORMAT_STAGE_WRITING_DATA">Skapar volymdata. Vänta.</entry>
     <entry lang="sv" key="FORMAT_STAGE_WRITING_BACKUP_HEADER">Slutför skapandet av volymen: skriver säkerhetskopieringshuvudet.</entry>
     <entry lang="sv" key="FORMAT_STAGE_FLUSHING_DATA">Slutför skapandet av volymen: skriver buffrade data till disken. Detta kan ta flera minuter för stora volymer eller långsamma lagrings- och USB-enheter.</entry>
-    <entry lang="sv" key="FORMAT_STAGE_FINISHED">Skapandet av volymen har slutförts.</entry>
+    <entry lang="sv" key="FORMAT_STAGE_FINISHED">Slutför skapandet av volymen.</entry>
     <entry lang="sv" key="FORMAT_STAGE_ABORTED">Volymskapandet har avbrutits.</entry>
     <entry lang="sv" key="FORMAT_STAGE_ERROR">Det gick inte att skapa volym.</entry>
     <entry lang="sv" key="FORMAT_STAGE_PREPARING_TEMP_VOLUME">Slutför skapandet av volymen: monterar en tillfällig volym.</entry>
@@ -1713,7 +1713,7 @@ Vill du fortsätta?</entry>
     <entry lang="sv" key="SYSENC_EFI_LOADER_NOT_TRUSTED_BY_SECUREBOOT">Varning: VeraCrypt kunde inte validera de installerade EFI-startinläsarfilerna mot en fullständig uppsättning inbäddade resurser och bekräfta att alla kända certifikatutfärdare som krävs för signering finns i db och inte är upptagna i dbx. Den fasta programvaran kan avvisa VeraCrypt när Secure Boot är aktiverat.
 
 Innan du startar med Secure Boot aktiverat ska du vid behov återställa de Microsoft-certifikat som krävs och en aktuell dbx och därefter köra Reparera/installera om i VeraCrypt. Ta inte bort Microsoft Corporation UEFI CA 2011 förrän db innehåller både Microsoft UEFI CA 2023 och Microsoft Option ROM UEFI CA 2023 och de installerade filerna faktiskt motsvarar VeraCrypts uppsättning för 2023. Den här kontrollen kan inte ta hänsyn till varje återkallande som baseras på avbildningshashar eller säkerhetsversioner. Kontrollera att du har en aktuell VeraCrypt-återställningsdisk.</entry>
-    <entry lang="sv" key="SYSENC_EFI_WINDOWS_LOADER_NOT_TRUSTED_BY_SECUREBOOT">Varning: VeraCrypt kunde inte validera den inbäddade signaturen och kompatibiliteten med kända certifikatutfärdare för den Windows-starthanterare som kedjestartas (bootmgfw_ms.vc). Filen kan saknas, vara oläsbar, inte vara en Windows-starthanterare, ha en okänd inbäddad signerare eller använda en känd certifikatutfärdare som saknas i db eller finns i dbx. Överlämningen till Windows kan misslyckas när Secure Boot är aktiverat.
+    <entry lang="sv" key="SYSENC_EFI_WINDOWS_LOADER_NOT_TRUSTED_BY_SECUREBOOT">Varning: VeraCrypt kunde inte validera den inbäddade signaturen och kompatibiliteten med kända certifikatutfärdare för Windows-starthanteraren som VeraCrypt kedjestartar (bootmgfw_ms.vc). Filen kan saknas, vara oläsbar, inte vara en Windows-starthanterare, ha en okänd inbäddad signerare eller använda en känd certifikatutfärdare som saknas i db eller finns i dbx. Överlämningen till Windows kan misslyckas när Secure Boot är aktiverat.
 
 Slutför eller reparera uppdateringen av Windows Secure Boot-certifikat och starthanterare, låt tjänsten VeraCrypt System Favorites vara aktiverad och kör Reparera/installera om i VeraCrypt. Reparationen kontrollerar även de EFI_EX-/EFI-kopior som Windows har uppdaterat för att hitta en kompatibel aktuell starthanterare. Inaktivera Secure Boot tillfälligt för återställning om Windows inte kan starta. Kontrollera att du har en aktuell VeraCrypt-återställningsdisk.</entry>
     <entry lang="sv" key="SYSENC_EFI_WINDOWS_LOADER_PCA2011_MIGRATION_NEEDED">Varning: Den inbäddade signaturen för den Windows-starthanterare som VeraCrypt använder (bootmgfw_ms.vc) är fortfarande utfärdad av Microsoft Windows Production PCA 2011, trots att den fasta programvarans db redan innehåller Windows UEFI CA 2023. Den kända certifikatutfärdaren är för närvarande tillåten, men starthanteraren kommer inte längre att kunna starta när PCA 2011-certifikatet har lagts till i dbx.
