@@ -1,11 +1,11 @@
-<?xml version='1.0' encoding='utf-8'?>
-<VeraCrypt xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<?xml version="1.0" encoding="utf-8"?>
+<VeraCrypt>
   <localization prog-version="1.26.29">
-    <language langid="sv" name="Svenska" en-name="Swedish" version="1.0.0" translators="Peter Runesson"></language>
-    <font lang="sv" class="normal" size="11" face="default"></font>
-    <font lang="sv" class="bold" size="13" face="Arial"></font>
-    <font lang="sv" class="fixed" size="12" face="Lucida Console"></font>
-    <font lang="sv" class="title" size="21" face="Times New Roman"></font>
+    <language langid="sv" name="Svenska" en-name="Swedish" version="1.0.0" translators="Peter Runesson" />
+    <font lang="sv" class="normal" size="11" face="default" />
+    <font lang="sv" class="bold" size="13" face="Arial" />
+    <font lang="sv" class="fixed" size="12" face="Lucida Console" />
+    <font lang="sv" class="title" size="21" face="Times New Roman" />
     <entry lang="sv" key="IDCANCEL">Avbryt</entry>
     <entry lang="sv" key="IDC_ALL_USERS">Installera för &amp;alla användare</entry>
     <entry lang="sv" key="IDC_BROWSE">&amp;Bläddra...</entry>
@@ -55,7 +55,7 @@
     <entry lang="sv" key="IDC_MULTI_BOOT">Flerstart</entry>
     <entry lang="sv" key="IDC_NONSYS_DEVICE">Kryptera en icke-systempartition/enhet</entry>
     <entry lang="sv" key="IDC_NO_HISTORY">Spara aldrig &amp;historik</entry>
-    <entry lang="sv" key="IDC_OPEN_OUTER_VOLUME">Öppna den yttre volymen</entry>
+    <entry lang="sv" key="IDC_OPEN_OUTER_VOLUME">Öppna yttre volym</entry>
     <entry lang="sv" key="IDC_PAUSE">&amp;Pausa</entry>
     <entry lang="sv" key="IDC_PIM_ENABLE">Använd P&amp;IM</entry>
     <entry lang="sv" key="IDC_NEW_PIM_ENABLE">Använd PIM</entry>
@@ -81,7 +81,7 @@
     <entry lang="sv" key="IDT_FILE_CONTAINER">Skapar en virtuell krypterad disk i en fil. Rekommenderas för oerfarna användare.</entry>
     <entry lang="sv" key="IDT_FORMAT_OPTIONS">Alternativ</entry>
     <entry lang="sv" key="IDT_HASH_ALGO">Hashalgoritm</entry>
-    <entry lang="sv" key="IDT_HEADER_KEY">Nyckel för volymhuvud: </entry>
+    <entry lang="sv" key="IDT_HEADER_KEY">Volymhuvudnyckel: </entry>
     <entry lang="sv" key="IDT_LEFT">Kvar</entry>
     <entry lang="sv" key="IDT_MASTER_KEY">Huvudnyckel: </entry>
     <entry lang="sv" key="IDT_MULTI_BOOT">Välj det här alternativet om det finns två eller flera operativsystem installerade på den här datorn.\n\nTill exempel:\n- Windows XP och Windows XP\n- Windows XP och Windows Vista\n- Windows och Mac OS X\n- Windows och Linux\n- Windows, Linux och Mac OS X</entry>
@@ -124,7 +124,7 @@
     <entry lang="sv" key="IDC_ENABLE_NEW_KEYFILES">Använd nyckelfiler</entry>
     <entry lang="sv" key="IDC_EXIT">Avsl&amp;uta</entry>
     <entry lang="sv" key="IDC_FAVORITES_HELP_LINK">Hjälp om favoritvolymer</entry>
-    <entry lang="sv" key="IDC_FAVORITE_DISABLE_HOTKEY">Montera inte vald volym när &amp;kortkommandot &quot;Montera favoritvolymer&quot; trycks ned</entry>
+    <entry lang="sv" key="IDC_FAVORITE_DISABLE_HOTKEY">Montera inte vald volym när &amp;kortkommandot "Montera favoritvolymer" trycks ned</entry>
     <entry lang="sv" key="IDC_FAVORITE_MOUNT_ON_ARRIVAL">Montera vald volym när dess värdenhet &amp;ansluts</entry>
     <entry lang="sv" key="IDC_FAVORITE_MOUNT_ON_LOGON">Montera vald volym vid &amp;inloggning</entry>
     <entry lang="sv" key="IDC_FAVORITE_MOUNT_READONLY">Montera vald volym som &amp;skrivskyddad</entry>
@@ -156,7 +156,7 @@
     <entry lang="sv" key="IDC_PIM_HELP">(Tomt eller 0 för standardvärden)</entry>
     <entry lang="sv" key="IDC_PREF_BKG_TASK_ENABLE">Aktiverad</entry>
     <entry lang="sv" key="IDC_PREF_CACHE_PASSWORDS">Lagra lösenord i drivrutinens minnescache</entry>
-    <entry lang="sv" key="IDC_PREF_UNMOUNT_INACTIVE">Demontera volymen automatiskt om inga data har lästs från eller skrivits till den på</entry>
+    <entry lang="sv" key="IDC_PREF_UNMOUNT_INACTIVE">Demontera volym automatiskt efter inaktivitet i</entry>
     <entry lang="sv" key="IDC_PREF_UNMOUNT_LOGOFF">Användaren loggar ut</entry>
     <entry lang="sv" key="IDC_PREF_UNMOUNT_SESSION_LOCKED">Användarsession låst</entry>
     <entry lang="sv" key="IDC_PREF_UNMOUNT_POWERSAVING">Går in i strömsparläge</entry>
@@ -1028,7 +1028,7 @@
     <entry lang="sv" key="MOUNTED_VOLUMES_UNMOUNTED">VeraCrypt-volymer har demonterats.</entry>
     <entry lang="sv" key="VOLUMES_UNMOUNTED_CACHE_WIPED">VeraCrypt-volymer har demonterats och lösenordscachen har rensats.</entry>
     <entry lang="sv" key="SUCCESSFULLY_UNMOUNTED">Demontering slutförd</entry>
-    <entry lang="sv" key="CONFIRM_BACKGROUND_TASK_DISABLED">VARNING: Om VeraCrypt-bakgrundsuppgiften inaktiveras kommer följande funktioner att inaktiveras:\n\n1) Kortkommandon\n2) Automatisk demontering (t.ex. vid utloggning, oavsiktlig borttagning av värdenheten eller överskriden tidsgräns)\n3) Automatisk montering av favoritvolymer\n4) Aviseringar (t.ex. när skador på en dold volym förhindras)\n5) Ikonen i meddelandefältet\n\nObs: Du kan avsluta bakgrundsuppgiften när som helst genom att högerklicka på VeraCrypt-ikonen i meddelandefältet och välja &quot;Avsluta&quot;.\n\nÄr du säker på att du vill inaktivera VeraCrypt-bakgrundsuppgiften permanent?</entry>
+    <entry lang="sv" key="CONFIRM_BACKGROUND_TASK_DISABLED">VARNING: Om VeraCrypt-bakgrundsuppgiften inaktiveras kommer följande funktioner att inaktiveras:\n\n1) Kortkommandon\n2) Automatisk demontering (t.ex. vid utloggning, oavsiktlig borttagning av värdenheten eller överskriden tidsgräns)\n3) Automatisk montering av favoritvolymer\n4) Aviseringar (t.ex. när skador på en dold volym förhindras)\n5) Ikonen i meddelandefältet\n\nObs: Du kan avsluta bakgrundsuppgiften när som helst genom att högerklicka på VeraCrypt-ikonen i meddelandefältet och välja "Avsluta".\n\nÄr du säker på att du vill inaktivera VeraCrypt-bakgrundsuppgiften permanent?</entry>
     <entry lang="sv" key="CONFIRM_NO_FORCED_AUTOUNMOUNT">VARNING: Om det här alternativet är inaktiverat kommer volymer som innehåller öppna filer/mappar inte att kunna demonteras automatiskt.\n\nÄr du säker på att du vill inaktivera det här alternativet?</entry>
     <entry lang="sv" key="WARN_PREF_AUTO_UNMOUNT">VARNING: Volymer som innehåller öppna filer eller mappar kommer INTE att demonteras automatiskt.\n\nFör att förhindra detta aktiverar du följande alternativ i det här dialogfönstret: "Tvinga automatisk demontering även om volymen innehåller öppna filer eller mappar"</entry>
     <entry lang="sv" key="WARN_PREF_AUTO_UNMOUNT_ON_POWER">VARNING: När en bärbar dators batterinivå är låg kan Windows utelämna att skicka lämpliga meddelanden till aktiva applikationer som körs när datorn går in i energisparläge. Därför kan VeraCrypt misslyckas med att automatiskt demontera volymer i sådana fall.</entry>
@@ -1103,7 +1103,7 @@
     <entry lang="sv" key="ALGO_NOT_SUPPORTED_FOR_TRUECRYPT_MODE">Den här algoritmen stöds inte för TrueCrypt-läge.</entry>
     <entry lang="sv" key="PIM_NOT_SUPPORTED_FOR_TRUECRYPT_MODE">PIM (personlig iterationsmultiplikator) stöds inte för TrueCrypt-läge.</entry>
     <entry lang="sv" key="PIM_REQUIRE_LONG_PASSWORD">Lösenordet måste innehålla 20 eller fler tecken för att använda den angivna PIM.\nKortare lösenord kan endast användas om PIM är 485 eller högre.</entry>
-    <entry lang="sv" key="BOOT_PIM_REQUIRE_LONG_PASSWORD">Lösenordet för autentisering före start måste innehålla minst 20 tecken för att den angivna PIM-koden ska kunna användas.\nKortare lösenord kan endast användas om PIM är 98 eller högre.</entry>
+    <entry lang="sv" key="BOOT_PIM_REQUIRE_LONG_PASSWORD">Lösenordet för autentisering före start måste innehålla minst 20 tecken för att det angivna PIM-värdet ska kunna användas.\nKortare lösenord kan endast användas om PIM är 98 eller högre.</entry>
     <entry lang="sv" key="KEYFILES_NOT_SUPPORTED_FOR_SYS_ENCRYPTION">Nyckelfiler stöds för närvarande inte vid systemkryptering.</entry>
     <entry lang="sv" key="CANNOT_RESTORE_KEYBOARD_LAYOUT">Varning: VeraCrypt kunde inte återställa den ursprungliga tangentbordslayouten. Detta kan orsaka att du anger ett felaktigt lösenord.</entry>
     <entry lang="sv" key="CANT_CHANGE_KEYB_LAYOUT_FOR_SYS_ENCRYPTION">Fel: Det går inte att ställa in tangentbordslayouten för VeraCrypt till den vanliga amerikanska tangentbordslayouten.\n\nObservera att lösenordet måste skrivas in i miljön före start (innan Windows startar) där icke-amerikanska Windows-tangentbordslayouter inte är tillgängliga. Lösenordet måste därför alltid skrivas med den vanliga amerikanska tangentbordslayouten.</entry>
@@ -1282,18 +1282,10 @@
     <entry lang="sv" key="TOKEN_SLOT_ID">Plats</entry>
     <entry lang="sv" key="TOKEN_NAME">Tokennamn</entry>
     <entry lang="sv" key="TOKEN_DATA_OBJECT_LABEL">Filnamn</entry>
-    <entry lang="sv" key="BOOT_PASSWORD_CACHE_KEYBOARD_WARNING">VIKTIGT: Observera att lösenord för autentisering före start alltid anges med den vanliga amerikanska tangentbordslayouten. Därför kan en volym som använder ett lösenord som har skrivits med en annan tangentbordslayout vara omöjlig att montera med autentisering före start (detta är inte ett fel i VeraCrypt). Följ dessa steg för att göra det möjligt att montera en sådan volym med autentisering före start:
-
-1) Klicka på "Välj fil" eller "Välj enhet" och välj volymen.
-2) Välj "Volymer" &gt; "Ändra volymlösenord".
-3) Ange volymens nuvarande lösenord.
-4) Ändra tangentbordslayouten till engelska (USA) genom att klicka på språkikonen i aktivitetsfältet i Windows och välja "EN English (USA)".
-5) Ange lösenordet för autentisering före start i VeraCrypts fält för det nya lösenordet.
-6) Bekräfta det nya lösenordet genom att ange det igen i bekräftelsefältet och klicka på "OK".
-VARNING: När du har följt dessa steg måste volymlösenordet alltid anges med den amerikanska tangentbordslayouten. Detta säkerställs automatiskt endast i miljön före start.</entry>
+    <entry lang="sv" key="BOOT_PASSWORD_CACHE_KEYBOARD_WARNING">VIKTIGT: Observera att lösenord för autentisering före start alltid anges med den vanliga amerikanska tangentbordslayouten. Därför kan en volym som använder ett lösenord som har skrivits med en annan tangentbordslayout vara omöjlig att montera med autentisering före start (detta är inte ett fel i VeraCrypt). Följ dessa steg för att göra det möjligt att montera en sådan volym med autentisering före start:\n\n1) Klicka på "Välj fil" eller "Välj enhet" och välj volymen.\n2) Välj "Volymer" &gt; "Ändra volymlösenord".\n3) Ange volymens nuvarande lösenord.\n4) Ändra tangentbordslayouten till engelska (USA) genom att klicka på språkikonen i aktivitetsfältet i Windows och välja "EN English (USA)".\n5) Ange lösenordet för autentisering före start i VeraCrypts fält för det nya lösenordet.\n6) Bekräfta det nya lösenordet genom att ange det igen i bekräftelsefältet och klicka på "OK".\nVARNING: När du har följt dessa steg måste volymlösenordet alltid anges med den amerikanska tangentbordslayouten. Detta säkerställs automatiskt endast i miljön före start.</entry>
     <entry lang="sv" key="SYS_FAVORITES_KEYBOARD_WARNING">Systemfavoritvolymer kommer att monteras med hjälp av lösenordet för autentisering före start. Om någon systemfavoritvolym använder ett annat lösenord, kommer den inte att monteras.</entry>
     <entry lang="sv" key="SYS_FAVORITES_ADMIN_ONLY_INFO">Observera att om du behöver förhindra att normala VeraCrypt-volymåtgärder (som "Demontera alla", automatisk demontering, etc.) påverkar systemets favoritvolymer, bör du aktivera alternativet "Tillåt endast administratörer att visa och demontera systemfavoritvolymer i VeraCrypt". Dessutom, när VeraCrypt körs utan administratörsbehörighet (standard på Windows Vista och senare), kommer systemets favoritvolymer inte att visas i enhetsbokstavslistan i VeraCrypt-huvudapplikationsfönstret.</entry>
-    <entry lang="sv" key="SYS_FAVORITES_ADMIN_ONLY_WARNING">VIKTIGT: Tänk på att om det här alternativet är aktiverat och VeraCrypt inte har administratörsbehörighet, visas INTE monterade systemfavoritvolymer i VeraCrypt-applikationsfönstret och de kan inte demonteras. Om du till exempel behöver demontera en systemfavoritvolym, högerklicka på VeraCrypt-ikonen (i Start-menyn) och välj &quot;Kör som administratör&quot; först. Samma begränsning gäller för &quot;Demontera alla&quot;-funktionen, &quot;Automatisk demontering&quot;-funktioner, &quot;Demontera alla&quot;-kortkommandon, etc.</entry>
+    <entry lang="sv" key="SYS_FAVORITES_ADMIN_ONLY_WARNING">VIKTIGT: Tänk på att om det här alternativet är aktiverat och VeraCrypt inte har administratörsbehörighet, visas INTE monterade systemfavoritvolymer i VeraCrypt-applikationsfönstret och de kan inte demonteras. Om du till exempel behöver demontera en systemfavoritvolym, högerklicka på VeraCrypt-ikonen (i Start-menyn) och välj "Kör som administratör" först. Samma begränsning gäller för "Demontera alla"-funktionen, "Automatisk demontering"-funktioner, "Demontera alla"-kortkommandon, etc.</entry>
     <entry lang="sv" key="SETTING_REQUIRES_REBOOT">Observera att den här inställningen träder i kraft först efter att operativsystemet har startat om.</entry>
     <entry lang="sv" key="COMMAND_LINE_ERROR">Fel vid analys av kommandoraden.</entry>
     <entry lang="sv" key="RESCUE_DISK">Återställningsdisk</entry>
@@ -1473,7 +1465,7 @@ VARNING: När du har följt dessa steg måste volymlösenordet alltid anges med 
     <entry lang="sv" key="LINUX_PREF_TAB_KEYFILES">Nyckelfiler</entry>
     <entry lang="sv" key="LINUX_PREF_TAB_TOKENS">Säkerhetstoken</entry>
     <entry lang="sv" key="LINUX_PREF_KERNEL_SERVICES">Kärntjänster</entry>
-    <entry lang="sv" key="LINUX_PREF_KERNEL_CRYPT">Använd inte kärnkryptografiska tjänster</entry>
+    <entry lang="sv" key="LINUX_PREF_KERNEL_CRYPT">Använd inte kärnans kryptografiska tjänster</entry>
     <entry lang="sv" key="LINUX_PREF_TAB_MOUNT_OPTIONS_FS">Filsystem</entry>
     <entry lang="sv" key="IDT_LINUX_PREF_TAB_MOUNT_OPTIONS">Monteringsalternativ:</entry>
     <entry lang="sv" key="LINUX_CROSS_SUPPORT">Stöd för flera plattformar</entry>
@@ -1501,8 +1493,8 @@ VARNING: När du har följt dessa steg måste volymlösenordet alltid anges med 
     <entry lang="sv" key="LINUX_VC_QUITS">VeraCrypt avslutas</entry>
     <entry lang="sv" key="LINUX_OPEN_FINDER">Öppna Finder-fönstret för volymen när den har monterats utan fel</entry>
     <entry lang="sv" key="LINUX_DISABLE_KERNEL_ONLY_SETTING">Observera att den här inställningen endast träder i kraft om användningen av kärnans kryptografiska tjänster är inaktiverad.</entry>
-    <entry lang="sv" key="LINUX_DISABLE_KERNEL_CRYPT_CONFIRM">Att inaktivera användningen av kärnkrypteringstjänster kan försämra prestandan.\n\nÄr du säker?</entry>
-    <entry lang="sv" key="LINUX_KERNEL_CRYPT_OPTION_CHANGE_MOUNTED_HINT">Observera att inaktivering av det här alternativet kanske inte har någon effekt på volymer som monteras med hjälp av kärnkrypteringstjänster.</entry>
+    <entry lang="sv" key="LINUX_DISABLE_KERNEL_CRYPT_CONFIRM">Att inaktivera användningen av kärnans kryptografiska tjänster kan försämra prestandan.\n\nÄr du säker?</entry>
+    <entry lang="sv" key="LINUX_KERNEL_CRYPT_OPTION_CHANGE_MOUNTED_HINT">Observera att inaktivering av det här alternativet kanske inte påverkar volymer som har monterats med hjälp av kärnans kryptografiska tjänster.</entry>
     <entry lang="sv" key="LINUX_REMOUNT_BECAUSEOF_SETTING">Observera att alla för närvarande monterade volymer måste monteras om innan de kan använda den här inställningen.</entry>
     <entry lang="sv" key="LINUX_UNKNOWN_EXC_OCCURRED">Okänt undantag inträffade.</entry>
     <entry lang="sv" key="LINUX_FIRST_AID">Diskverktyget kommer att startas när du trycker på "OK".\n\nVälj din volym i fönstret Diskverktyget och tryck på "Verifiera disk" eller "Reparera disk"-knappen på "Första hjälp"-sidan.</entry>
@@ -1535,11 +1527,7 @@ VARNING: När du har följt dessa steg måste volymlösenordet alltid anges med 
     <entry lang="sv" key="LINUX_EX2MSG_DEVICESECTORSIZEMISMATCH">Lagringsenhetens och VeraCrypt-volymens sektorstorlekar överensstämmer inte</entry>
     <entry lang="sv" key="LINUX_EX2MSG_ENCRYPTEDSYSTEMREQUIRED">Den här åtgärden får endast utföras när systemet som finns på volymen körs.</entry>
     <entry lang="sv" key="LINUX_EX2MSG_INSUFFICIENTDATA">Inte tillräckligt med data tillgängligt.</entry>
-    <entry lang="sv" key="LINUX_EX2MSG_KERNELCRYPTOSERVICETESTFAILED">Testet av kärnans kryptografiska tjänst misslyckades. Kärnans kryptografiska tjänst stöder sannolikt inte volymer större än 2 TB.
-
-Möjliga lösningar:
-- Uppgradera Linux-kärnan till version 2.6.33 eller senare.
-- Inaktivera kärnans kryptografiska tjänster (Inställningar &gt; Alternativ &gt; Systemintegration) eller använd monteringsalternativet "nokernelcrypto" på kommandoraden.</entry>
+    <entry lang="sv" key="LINUX_EX2MSG_KERNELCRYPTOSERVICETESTFAILED">Testet av kärnans kryptografiska tjänster misslyckades. Kärnans kryptografiska tjänster stöder sannolikt inte volymer större än 2 TB.\n\nMöjliga lösningar:\n- Uppgradera Linux-kärnan till version 2.6.33 eller senare.\n- Inaktivera användningen av kärnans kryptografiska tjänster (Inställningar > Alternativ > Systemintegration) eller använd monteringsalternativet "nokernelcrypto" på kommandoraden.</entry>
     <entry lang="sv" key="LINUX_EX2MSG_LOOPDEVICESETUPFAILED">Det gick inte att konfigurera en loopenhet.</entry>
     <entry lang="sv" key="LINUX_EX2MSG_MISSINGARGUMENT">Ett obligatoriskt argument saknas.</entry>
     <entry lang="sv" key="LINUX_EX2MSG_MISSINGVOLUMEDATA">Volymdata saknas.</entry>
@@ -1556,7 +1544,7 @@ Möjliga lösningar:
     <entry lang="sv" key="LINUX_EX2MSG_STRINGFORMATTEREXCEPTION">Fel vid analys av formaterad sträng.</entry>
     <entry lang="sv" key="LINUX_EX2MSG_TEMPORARYDIRECTORYFAILURE">Det gick inte att skapa en fil eller mapp i en temporär mapp.\n\nSe till att den temporära mappen finns, att dess säkerhetsbehörigheter tillåter dig att komma åt den och att det finns tillräckligt med diskutrymme.</entry>
     <entry lang="sv" key="LINUX_EX2MSG_UNSUPPORTEDSECTORSIZEHIDDENVOLUMEPROTECTION">Fel: Enheten använder en annan sektorstorlek än 512 byte.\n\nPå grund av begränsningar av komponenter som är tillgängliga på din plattform, kan yttre volymer som finns på enheten inte monteras med dolt volymskydd.\n\nMöjliga lösningar:\n- Använd en enhet med 512-byte sektorer.\n- Skapa en filvärdad volym (behållare) på enheten.\n- Säkerhetskopiera innehållet i den dolda volymen och uppdatera sedan den yttre volymen.</entry>
-    <entry lang="sv" key="LINUX_EX2MSG_UNSUPPORTEDSECTORSIZENOKERNELCRYPTO">Fel: Enheten använder en annan sektorstorlek än 512 byte.\n\nPå grund av begränsningar hos komponenterna på din plattform kan partitions-/enhetsvärdade volymer på enheten endast monteras med hjälp av kärnans kryptografiska tjänster.\n\nMöjliga lösningar:\n- Aktivera kärnans kryptografiska tjänster (Alternativ &gt; Systemintegration).\n- Använd en enhet med 512-byte sektorer.\n- Skapa en filvärdad volym (behållare) på enheten.</entry>
+    <entry lang="sv" key="LINUX_EX2MSG_UNSUPPORTEDSECTORSIZENOKERNELCRYPTO">Fel: Enheten använder en annan sektorstorlek än 512 byte.\n\nPå grund av begränsningar hos komponenterna på din plattform kan partitions-/enhetsvärdade volymer på enheten endast monteras med hjälp av kärnans kryptografiska tjänster.\n\nMöjliga lösningar:\n- Aktivera användningen av kärnans kryptografiska tjänster (Alternativ > Systemintegration).\n- Använd en enhet med 512-byte sektorer.\n- Skapa en filvärdad volym (behållare) på enheten.</entry>
     <entry lang="sv" key="LINUX_EX2MSG_UNSUPPORTEDSECTORSIZE">Fel: Enheten använder en annan sektorstorlek än 512 byte.\n\nPå grund av begränsningar av komponenter som är tillgängliga på din plattform kan partitions-/enhetsvärdade volymer inte skapas/användas på enheten.\n\nMöjliga lösningar:\n- Skapa en filvärdad volym (behållare) på enheten.\n- Använd en enhet med 512-byte sektorer.\n- Använd VeraCrypt på en annan plattform.</entry>
     <entry lang="sv" key="LINUX_EX2MSG_VOLUMEHOSTINUSE">Värdfilen/-enheten används redan.</entry>
     <entry lang="sv" key="LINUX_EX2MSG_VOLUMESLOTUNAVAILABLE">Volymplatsen är inte tillgänglig.</entry>
@@ -1690,31 +1678,21 @@ Möjliga lösningar:
     <entry lang="sv" key="FORMAT_STAGE_PREPARING_TEMP_DEVICE">Slutför skapandet av volymen: förbereder en tillfällig enhet.</entry>
     <entry lang="sv" key="FORMAT_STAGE_CREATING_FILESYSTEM">Slutför skapandet av volymen: skapar ett filsystem med {0}.</entry>
     <entry lang="sv" key="FORMAT_STAGE_DISMOUNTING_TEMP_VOLUME">Slutför skapandet av volymen: demonterar den tillfälliga volymen.</entry>
-    <entry lang="sv" key="MACOSX_APFS_SYNTHESIZED_DEVICE">Den valda enheten '{0}' är en syntetiserad APFS-behållare eller APFS-volym och kan inte användas som rå värd för en VeraCrypt-volym.
-
-Välj den fysiska APFS-lagringspartitionen{1} i stället.</entry>
+    <entry lang="sv" key="MACOSX_APFS_SYNTHESIZED_DEVICE">Den valda enheten '{0}' är en syntetiserad APFS-behållare eller APFS-volym och kan inte användas som rå värd för en VeraCrypt-volym.\n\nVälj den fysiska APFS-lagringspartitionen{1} i stället.</entry>
     <entry lang="sv" key="MACOSX_DEVICE_SYSTEM_PARTITION">Den valda enheten '{0}' är en system- eller stödpartition för macOS och kan inte användas som värd för en VeraCrypt-volym.</entry>
     <entry lang="sv" key="MACOSX_APFS_SYSTEM_STORE">Den valda fysiska APFS-lagringsenheten '{0}' innehåller den monterade macOS-systemvolymen och kan inte användas som värd för en VeraCrypt-volym.</entry>
     <entry lang="sv" key="MACOSX_DEVICE_NOT_WRITABLE">macOS rapporterar den valda enheten '{0}' som skrivskyddad. Välj en skrivbar fysisk partition eller disk.</entry>
     <entry lang="sv" key="MACOSX_APFS_EROFS_HINT">macOS rapporterade den valda enheten som skrivskyddad. Om detta är en APFS-disk, se till att du valde den fysiska APFS-lagringspartitionen, inte en APFS-syntetiserad volym. Använd Skivverktyg eller 'diskutil list' för att identifiera den fysiska partitionen och försök sedan igen.</entry>
     <entry lang="sv" key="FAVORITE_PIM_OR_KDF_CHANGED">Den här volymen är registrerad som en systemfavoritvolym och dess PIM- och/eller KDF-inställningar har ändrats.\nVill du att VeraCrypt automatiskt ska uppdatera konfigurationen för systemfavoritvolymen (administratörsbehörighet krävs)?\n\nObservera att om du svarar nej måste du uppdatera systemfavoritvolymen manuellt.</entry>
-    <entry lang="sv" key="PIM_RESET_ON_KDF_CHANGE_CONFIRM">Den valda KDF-algoritmen använder andra PIM-parametrar, så VeraCrypt kommer inte att återanvända det nuvarande anpassade PIM-värdet. Det nya volymhuvudet kommer att använda standardvärdet för PIM med den valda KDF-algoritmen om du inte väljer "Använd PIM" i avsnittet Nytt och anger ett anpassat värde.
-
-Vill du fortsätta?</entry>
+    <entry lang="sv" key="PIM_RESET_ON_KDF_CHANGE_CONFIRM">Den valda KDF-algoritmen använder andra PIM-parametrar, så VeraCrypt kommer inte att återanvända det nuvarande anpassade PIM-värdet. Det nya volymhuvudet kommer att använda standardvärdet för PIM med den valda KDF-algoritmen om du inte väljer "Använd PIM" i avsnittet Nytt och anger ett anpassat värde.\n\nVill du fortsätta?</entry>
     <entry lang="sv" key="SYSENC_EFI_UNSUPPORTED_SECUREBOOT_CA">VeraCrypt kunde inte bekräfta att en uppsättning EFI-startinläsare är kompatibel med den aktuella Secure Boot-konfigurationen. En nödvändig Microsoft-certifikatutfärdare kan saknas i db eller finnas i dbx, eller så kan en variabel i den fasta programvaran vara oläsbar eller felaktigt formaterad. Att variabeln dbx saknas är giltigt; ett diagnostikfel för dbx som inte är noll är det inte.\n\nAktivera antingen Microsoft Corporation UEFI CA 2011 eller både Microsoft UEFI CA 2023 och Microsoft Option ROM UEFI CA 2023 och kör sedan Reparera/installera om i VeraCrypt. Låt Secure Boot vara inaktiverat tills diagnostiken visar en fullständig och kompatibel bedömning.</entry>
     <entry lang="sv" key="MACOSX_CHECK_FILESYS">Ett Terminal-fönster öppnas när du trycker på "OK" och kontrollerar filsystemet på den valda VeraCrypt-volymen med "diskutil". Resultatet visas i fönstret.\n\nOm kontrollen inte kan startas öppnas Skivverktyg i stället.</entry>
     <entry lang="sv" key="MACOSX_REPAIR_FILESYS">Ett Terminal-fönster öppnas när du trycker på "OK" och försöker reparera filsystemet på den valda VeraCrypt-volymen med "diskutil". Resultatet visas i fönstret.\n\nOm reparationen inte kan startas öppnas Skivverktyg i stället.</entry>
-    <entry lang="sv" key="SYSENC_EFI_LOADER_NOT_TRUSTED_BY_SECUREBOOT">Varning: VeraCrypt kunde inte validera de installerade EFI-startinläsarfilerna mot en fullständig uppsättning inbäddade resurser och bekräfta att alla kända certifikatutfärdare som krävs för signering finns i db och inte är upptagna i dbx. Den fasta programvaran kan avvisa VeraCrypt när Secure Boot är aktiverat.
-
-Innan du startar med Secure Boot aktiverat ska du vid behov återställa de Microsoft-certifikat som krävs och en aktuell dbx och därefter köra Reparera/installera om i VeraCrypt. Ta inte bort Microsoft Corporation UEFI CA 2011 förrän db innehåller både Microsoft UEFI CA 2023 och Microsoft Option ROM UEFI CA 2023 och de installerade filerna faktiskt motsvarar VeraCrypts uppsättning för 2023. Den här kontrollen kan inte ta hänsyn till varje återkallande som baseras på avbildningshashar eller säkerhetsversioner. Kontrollera att du har en aktuell VeraCrypt-återställningsdisk.</entry>
-    <entry lang="sv" key="SYSENC_EFI_WINDOWS_LOADER_NOT_TRUSTED_BY_SECUREBOOT">Varning: VeraCrypt kunde inte validera den inbäddade signaturen och kompatibiliteten med kända certifikatutfärdare för Windows-starthanteraren som VeraCrypt kedjestartar (bootmgfw_ms.vc). Filen kan saknas, vara oläsbar, inte vara en Windows-starthanterare, ha en okänd inbäddad signerare eller använda en känd certifikatutfärdare som saknas i db eller finns i dbx. Överlämningen till Windows kan misslyckas när Secure Boot är aktiverat.
-
-Slutför eller reparera uppdateringen av Windows Secure Boot-certifikat och starthanterare, låt tjänsten VeraCrypt System Favorites vara aktiverad och kör Reparera/installera om i VeraCrypt. Reparationen kontrollerar även de EFI_EX-/EFI-kopior som Windows har uppdaterat för att hitta en kompatibel aktuell starthanterare. Inaktivera Secure Boot tillfälligt för återställning om Windows inte kan starta. Kontrollera att du har en aktuell VeraCrypt-återställningsdisk.</entry>
-    <entry lang="sv" key="SYSENC_EFI_WINDOWS_LOADER_PCA2011_MIGRATION_NEEDED">Varning: Den inbäddade signaturen för den Windows-starthanterare som VeraCrypt använder (bootmgfw_ms.vc) är fortfarande utfärdad av Microsoft Windows Production PCA 2011, trots att den fasta programvarans db redan innehåller Windows UEFI CA 2023. Den kända certifikatutfärdaren är för närvarande tillåten, men starthanteraren kommer inte längre att kunna starta när PCA 2011-certifikatet har lagts till i dbx.
-
-Verkställ ännu inte återkallelsen av PCA 2011 (AvailableUpdates-bit 0x80, inklusive det kombinerade värdet 0x280). Slutför först Windows 2023-uppdatering av starthanteraren medan tjänsten VeraCrypt System Favorites är aktiverad och kör sedan Reparera/installera om i VeraCrypt, så att VeraCrypt kan importera en kompatibel EFI_EX-/EFI-kopia som Windows har uppdaterat. Kontrollera att den inbäddade utfärdaren för bootmgfw_ms.vc är Windows UEFI CA 2023 och att du har en aktuell VeraCrypt-återställningsdisk.</entry>
+    <entry lang="en" key="SYSENC_EFI_LOADER_NOT_TRUSTED_BY_SECUREBOOT">Varning: VeraCrypt kunde inte validera de installerade EFI-startinläsarfilerna mot en fullständig uppsättning inbäddade resurser och bekräfta att alla kända certifikatutfärdare som krävs för signering finns i db och inte är upptagna i dbx. Den fasta programvaran kan avvisa VeraCrypt när Secure Boot är aktiverat.\n\nInnan du startar med Secure Boot aktiverat ska du vid behov återställa de Microsoft-certifikat som krävs och en aktuell dbx och därefter köra Reparera/installera om i VeraCrypt. Ta inte bort Microsoft Corporation UEFI CA 2011 förrän db innehåller både Microsoft UEFI CA 2023 och Microsoft Option ROM UEFI CA 2023 och de installerade filerna faktiskt motsvarar VeraCrypts uppsättning för 2023. Den här kontrollen kan inte ta hänsyn till varje återkallande som baseras på avbildningshashar eller säkerhetsversioner. Kontrollera att du har en aktuell VeraCrypt-återställningsdisk.</entry>
+    <entry lang="en" key="SYSENC_EFI_WINDOWS_LOADER_NOT_TRUSTED_BY_SECUREBOOT">Varning: VeraCrypt kunde inte validera den inbäddade signaturen och kompatibiliteten med kända certifikatutfärdare för Windows-starthanteraren som VeraCrypt kedjestartar (bootmgfw_ms.vc). Filen kan saknas, vara oläsbar, inte vara en Windows-starthanterare, ha en okänd inbäddad signerare eller använda en känd certifikatutfärdare som saknas i db eller finns i dbx. Överlämningen till Windows kan misslyckas när Secure Boot är aktiverat.\n\nSlutför eller reparera uppdateringen av Windows Secure Boot-certifikat och starthanterare, låt tjänsten VeraCrypt System Favorites vara aktiverad och kör Reparera/installera om i VeraCrypt. Reparationen kontrollerar även de EFI_EX-/EFI-kopior som Windows har uppdaterat för att hitta en kompatibel aktuell starthanterare. Inaktivera Secure Boot tillfälligt för återställning om Windows inte kan starta. Kontrollera att du har en aktuell VeraCrypt-återställningsdisk.</entry>
+    <entry lang="en" key="SYSENC_EFI_WINDOWS_LOADER_PCA2011_MIGRATION_NEEDED">Varning: Den inbäddade signaturen för den Windows-starthanterare som VeraCrypt använder (bootmgfw_ms.vc) är fortfarande utfärdad av Microsoft Windows Production PCA 2011, trots att den fasta programvarans db redan innehåller Windows UEFI CA 2023. Den kända certifikatutfärdaren är för närvarande tillåten, men starthanteraren kommer inte längre att kunna starta när PCA 2011-certifikatet har lagts till i dbx.\n\nVerkställ ännu inte återkallelsen av PCA 2011 (AvailableUpdates-bit 0x80, inklusive det kombinerade värdet 0x280). Slutför först Windows 2023-uppdatering av starthanteraren medan tjänsten VeraCrypt System Favorites är aktiverad och kör sedan Reparera/installera om i VeraCrypt, så att VeraCrypt kan importera en kompatibel EFI_EX-/EFI-kopia som Windows har uppdaterat. Kontrollera att den inbäddade utfärdaren för bootmgfw_ms.vc är Windows UEFI CA 2023 och att du har en aktuell VeraCrypt-återställningsdisk.</entry>
   </localization>
-  <xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified">
+  <xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
     <xs:element name="VeraCrypt">
       <xs:complexType>
         <xs:sequence>
@@ -1723,33 +1701,33 @@ Verkställ ännu inte återkallelsen av PCA 2011 (AvailableUpdates-bit 0x80, ink
               <xs:sequence>
                 <xs:element name="language">
                   <xs:complexType>
-                    <xs:attribute name="langid" type="xs:string" use="required"></xs:attribute>
-                    <xs:attribute name="name" type="xs:string" use="required"></xs:attribute>
-                    <xs:attribute name="en-name" type="xs:string" use="required"></xs:attribute>
-                    <xs:attribute name="version" type="xs:string" use="required"></xs:attribute>
-                    <xs:attribute name="translators" type="xs:string" use="required"></xs:attribute>
+                    <xs:attribute name="langid" type="xs:string" use="required" />
+                    <xs:attribute name="name" type="xs:string" use="required" />
+                    <xs:attribute name="en-name" type="xs:string" use="required" />
+                    <xs:attribute name="version" type="xs:string" use="required" />
+                    <xs:attribute name="translators" type="xs:string" use="required" />
                   </xs:complexType>
                 </xs:element>
                 <xs:element minOccurs="4" maxOccurs="4" name="font">
                   <xs:complexType>
-                    <xs:attribute name="lang" type="xs:string" use="required"></xs:attribute>
-                    <xs:attribute name="class" type="xs:string" use="required"></xs:attribute>
-                    <xs:attribute name="size" type="xs:unsignedByte" use="required"></xs:attribute>
-                    <xs:attribute name="face" type="xs:string" use="required"></xs:attribute>
+                    <xs:attribute name="lang" type="xs:string" use="required" />
+                    <xs:attribute name="class" type="xs:string" use="required" />
+                    <xs:attribute name="size" type="xs:unsignedByte" use="required" />
+                    <xs:attribute name="face" type="xs:string" use="required" />
                   </xs:complexType>
                 </xs:element>
                 <xs:element maxOccurs="unbounded" name="entry">
                   <xs:complexType>
                     <xs:simpleContent>
                       <xs:extension base="xs:string">
-                        <xs:attribute name="lang" type="xs:string" use="required"></xs:attribute>
-                        <xs:attribute name="key" type="xs:string" use="required"></xs:attribute>
+                        <xs:attribute name="lang" type="xs:string" use="required" />
+                        <xs:attribute name="key" type="xs:string" use="required" />
                       </xs:extension>
                     </xs:simpleContent>
                   </xs:complexType>
                 </xs:element>
               </xs:sequence>
-              <xs:attribute name="prog-version" type="xs:string" use="required"></xs:attribute>
+              <xs:attribute name="prog-version" type="xs:string" use="required" />
             </xs:complexType>
           </xs:element>
         </xs:sequence>
