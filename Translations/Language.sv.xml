@@ -124,7 +124,7 @@
     <entry lang="sv" key="IDC_ENABLE_NEW_KEYFILES">Använd nyckelfiler</entry>
     <entry lang="sv" key="IDC_EXIT">Avsl&amp;uta</entry>
     <entry lang="sv" key="IDC_FAVORITES_HELP_LINK">Hjälp om favoritvolymer</entry>
-    <entry lang="sv" key="IDC_FAVORITE_DISABLE_HOTKEY">Montera inte vald volym när &amp;snabbtangenten "Montera favoritvolymer" trycks ned</entry>
+    <entry lang="sv" key="IDC_FAVORITE_DISABLE_HOTKEY">Montera inte vald volym när &amp;kortkommandot &quot;Montera favoritvolymer&quot; trycks ned</entry>
     <entry lang="sv" key="IDC_FAVORITE_MOUNT_ON_ARRIVAL">Montera vald volym när dess värdenhet &amp;ansluts</entry>
     <entry lang="sv" key="IDC_FAVORITE_MOUNT_ON_LOGON">Montera vald volym vid &amp;inloggning</entry>
     <entry lang="sv" key="IDC_FAVORITE_MOUNT_READONLY">Montera vald volym som &amp;skrivskyddad</entry>
@@ -135,8 +135,8 @@
     <entry lang="sv" key="IDC_FAVORITE_REMOVE">&amp;Ta bort</entry>
     <entry lang="sv" key="IDC_FAVORITE_USE_LABEL_IN_EXPLORER">Använd favoritetikett som Utforskarens volymetikett</entry>
     <entry lang="sv" key="IDC_FAV_VOL_OPTIONS_GLOBAL_SETTINGS_BOX">Globala inställningar</entry>
-    <entry lang="sv" key="IDC_HK_UNMOUNT_BALLOON_TOOLTIP">Visa ett systemmeddelande efter en slutförd demontering med snabbtangent</entry>
-    <entry lang="sv" key="IDC_HK_UNMOUNT_PLAY_SOUND">Spela upp ett systemaviseringsljud efter en slutförd demontering med snabbtangent</entry>
+    <entry lang="sv" key="IDC_HK_UNMOUNT_BALLOON_TOOLTIP">Visa ett systemmeddelande efter en slutförd demontering med kortkommando</entry>
+    <entry lang="sv" key="IDC_HK_UNMOUNT_PLAY_SOUND">Spela upp ett systemaviseringsljud efter en slutförd demontering med kortkommando</entry>
     <entry lang="sv" key="IDC_HK_MOD_ALT">Alt</entry>
     <entry lang="sv" key="IDC_HK_MOD_CTRL">Ctrl</entry>
     <entry lang="sv" key="IDC_HK_MOD_SHIFT">Skift</entry>
@@ -187,7 +187,7 @@
     <entry lang="sv" key="IDC_WIPE_CACHE">&amp;Rensa cache</entry>
     <entry lang="sv" key="IDD_DEFAULT_MOUNT_PARAMETERS">VeraCrypt - Monteringsparametrar</entry>
     <entry lang="sv" key="IDD_FAVORITE_VOLUMES">VeraCrypt - Favoritvolymer</entry>
-    <entry lang="sv" key="IDD_HOTKEYS_DLG">VeraCrypt - Systemomfattande snabbtangenter</entry>
+    <entry lang="sv" key="IDD_HOTKEYS_DLG">VeraCrypt - Systemomfattande kortkommandon</entry>
     <entry lang="sv" key="IDD_MOUNT_DLG">VeraCrypt</entry>
     <entry lang="sv" key="IDD_PASSWORDCHANGE_DLG">Ändra lösenord eller nyckelfiler</entry>
     <entry lang="sv" key="IDD_PASSWORD_DLG">Ange lösenord för VeraCrypt-volym</entry>
@@ -222,7 +222,7 @@
     <entry lang="sv" key="IDM_FAQ">Vanliga frågor</entry>
     <entry lang="sv" key="IDM_HELP">Användarhandbok</entry>
     <entry lang="sv" key="IDM_HOMEPAGE">&amp;Webbplats </entry>
-    <entry lang="sv" key="IDM_HOTKEY_SETTINGS">Snabbtangenter...</entry>
+    <entry lang="sv" key="IDM_HOTKEY_SETTINGS">Kortkommandon...</entry>
     <entry lang="sv" key="IDM_KEYFILE_GENERATOR">Nyckelfilsgenerator</entry>
     <entry lang="sv" key="IDM_LANGUAGE">Språk...</entry>
     <entry lang="sv" key="IDM_LICENSE">Juridiska villkor</entry>
@@ -267,7 +267,7 @@
     <entry lang="sv" key="IDM_WIPE_CACHE">Rensa cachelagrade lösenord</entry>
     <entry lang="sv" key="IDOK">OK</entry>
     <entry lang="sv" key="IDT_ACCELERATION_OPTIONS">Hårdvaruacceleration</entry>
-    <entry lang="sv" key="IDT_ASSIGN_HOTKEY">Snabbtangent</entry>
+    <entry lang="sv" key="IDT_ASSIGN_HOTKEY">Kortkommando</entry>
     <entry lang="sv" key="IDT_AUTORUN">AutoRun-konfiguration (autorun.inf)</entry>
     <entry lang="sv" key="IDT_AUTO_UNMOUNT">Automatisk demontering</entry>
     <entry lang="sv" key="IDT_AUTO_UNMOUNT_ON">Demontera alla när:</entry>
@@ -276,7 +276,7 @@
     <entry lang="sv" key="IDT_CURRENT">Aktuell</entry>
     <entry lang="sv" key="IDT_CUSTOM_BOOT_LOADER_MESSAGE">Visa detta anpassade meddelande på skärmen för autentisering före start (högst 24 tecken):</entry>
     <entry lang="sv" key="IDT_DEFAULT_MOUNT_OPTIONS">Standardmonteringsalternativ</entry>
-    <entry lang="sv" key="IDT_UNMOUNT_ACTION">Snabbtangentsalternativ</entry>
+    <entry lang="sv" key="IDT_UNMOUNT_ACTION">Alternativ för kortkommandon</entry>
     <entry lang="sv" key="IDT_DRIVER_OPTIONS">Drivrutinskonfiguration</entry>
     <entry lang="sv" key="IDC_ENABLE_EXTENDED_IOCTL_SUPPORT">Aktivera stöd för utökade diskkontrollkoder</entry>
     <entry lang="sv" key="IDT_FAVORITE_LABEL">Etikett för vald favoritvolym:</entry>
@@ -550,7 +550,7 @@
     <entry lang="sv" key="ERR_SIZE_MISSING">Ingen volymstorlek specificerad på kommandoraden. Volymen kan inte skapas.</entry>
     <entry lang="sv" key="ERR_NTFS_INVALID_VOLUME_SIZE">Volymfilstorleken som anges på kommandoraden är inkompatibel med valt NTFS-filsystem.</entry>
     <entry lang="sv" key="ERR_FAT_INVALID_VOLUME_SIZE">Volymfilstorleken som anges på kommandoraden är inkompatibel med valt FAT32-filsystem.</entry>
-    <entry lang="sv" key="ERR_DYNAMIC_NOT_SUPPORTED">Filsystemet på målenheten stöder inte skapande av glesa filer, vilket krävs för dynamiska volymer.</entry>
+    <entry lang="sv" key="ERR_DYNAMIC_NOT_SUPPORTED">Filsystemet på målenheten stöder inte skapande av sparse-filer, vilket krävs för dynamiska volymer.</entry>
     <entry lang="sv" key="ERR_DEVICE_CLI_CREATE_NOT_SUPPORTED">Endast behållarfiler kan skapas via kommandoraden.</entry>
     <entry lang="sv" key="ERR_CONTAINER_SIZE_TOO_BIG">Behållarfilstorleken som anges på kommandoraden är större än det tillgängliga diskutrymmet. Volym kan inte skapas.</entry>
     <entry lang="sv" key="ERR_VOLUME_SIZE_TOO_SMALL">Volymstorleken som anges på kommandoraden är för liten. Volymen kan inte skapas.</entry>
@@ -667,7 +667,7 @@
     <entry lang="sv" key="SELECT_KEYFILE_GENERATION_DIRECTORY">Välj en mapp där nyckelfilerna ska lagras.</entry>
     <entry lang="sv" key="SELECTED_KEYFILE_IS_CONTAINER_FILE">Den aktuella behållarfilen valdes som en nyckelfil. Den kommer att hoppas över.</entry>
     <entry lang="sv" key="SERPENT_HELP">Utvecklad av Ross Anderson, Eli Biham och Lars Knudsen. Publicerad 1998. 256-bitars nyckel, 128-bitars block. Krypteringsläget är XTS. Serpent var en av AES-finalisterna.</entry>
-    <entry lang="sv" key="SIZE_HELP">Ange storleken på behållaren du vill skapa.\n\nOm du skapar en dynamisk behållare (gles fil), kommer denna parameter att specificera dess största möjliga storlek.\n\nObservera att minsta möjliga storlek på en FAT-volym är 292 KiB. Minsta möjliga storlek på en exFAT-volym är 424 KiB. Minsta möjliga storlek på en NTFS-volym är 3792 KiB. Minsta möjliga storlek på en ReFS-volym är 642 MiB.</entry>
+    <entry lang="sv" key="SIZE_HELP">Ange storleken på behållaren du vill skapa.\n\nOm du skapar en dynamisk behållare (sparse-fil), kommer denna parameter att specificera dess största möjliga storlek.\n\nObservera att minsta möjliga storlek på en FAT-volym är 292 KiB. Minsta möjliga storlek på en exFAT-volym är 424 KiB. Minsta möjliga storlek på en NTFS-volym är 3792 KiB. Minsta möjliga storlek på en ReFS-volym är 642 MiB.</entry>
     <entry lang="sv" key="SIZE_HELP_HIDDEN_HOST_VOL">Ange storleken på den yttre volymen som ska skapas (du skapar först den yttre volymen och sedan en dold volym i den). Minsta möjliga storlek för en volym inom vilken en dold volym är avsedd att skapas är 340 KiB.</entry>
     <entry lang="sv" key="SIZE_HELP_HIDDEN_VOL">Ange storleken på den dolda volymen som ska skapas. Minsta möjliga storlek på en dold volym är 40 KiB (eller 3664 KiB om den är formaterad som NTFS). Den maximala möjliga storleken du kan ange för den dolda volymen visas ovan.</entry>
     <entry lang="sv" key="SIZE_HIDVOL_HOST_TITLE">Yttre volymstorlek</entry>
@@ -703,7 +703,7 @@
     <entry lang="sv" key="VOL_SEEKING">Fel vid sökning av plats inom volymen.</entry>
     <entry lang="sv" key="VOL_SIZE_WRONG">Fel: Felaktig volymstorlek.</entry>
     <entry lang="sv" key="WARN_QUICK_FORMAT">VARNING: Du bör endast använda snabbformatering i följande fall:\n\n1) Enheten innehåller inga känsliga data och du behöver ingen rimlig förnekelse.\n2) Enheten har redan blivit säkert och helt krypterad.\n\nÄr du säker på att du vill använda snabbformatering?</entry>
-    <entry lang="sv" key="CONFIRM_SPARSE_FILE">En dynamisk behållare är en förallokerad gles NTFS-fil vars fysiska storlek (det faktiska diskutrymme som används) växer när nya data läggs till.\n\nVARNING: Prestandan för volymer som lagras i glesa filer är betydligt sämre än för vanliga volymer. Sådana volymer är också mindre säkra eftersom det går att avgöra vilka volymsektorer som är oanvända. De kan dessutom inte ge rimlig förnekelse genom att innehålla en dold volym. Observera också att det krypterade filsystemet kan skadas om data skrivs till en behållare i en gles fil när det inte finns tillräckligt med ledigt utrymme i värdfilsystemet.\n\nÄr du säker på att du vill skapa en volym som lagras i en gles fil?</entry>
+    <entry lang="sv" key="CONFIRM_SPARSE_FILE">En dynamisk behållare är en förallokerad NTFS-sparse-fil vars fysiska storlek (det faktiska diskutrymme som används) växer när nya data läggs till.\n\nVARNING: Prestandan för volymer som lagras i sparse-filer är betydligt sämre än för vanliga volymer. Sådana volymer är också mindre säkra eftersom det går att avgöra vilka volymsektorer som är oanvända. De kan dessutom inte ge rimlig förnekelse genom att innehålla en dold volym. Observera också att det krypterade filsystemet kan skadas om data skrivs till en behållare i en sparse-fil när det inte finns tillräckligt med ledigt utrymme i värdfilsystemet.\n\nÄr du säker på att du vill skapa en volym som lagras i en sparse-fil?</entry>
     <entry lang="sv" key="SPARSE_FILE_SIZE_NOTE">Observera att storleken på den dynamiska behållaren som rapporteras av Windows och VeraCrypt alltid kommer att vara lika med dess maximala storlek. För att ta reda på aktuell fysisk storlek på behållaren (faktiskt diskutrymme den använder), högerklicka på behållarfilen (i ett fönster i Utforskaren, inte i VeraCrypt), välj sedan "Egenskaper" och se värdet "Storlek på disk".\n\nObservera att om du flyttar en dynamisk behållare till en annan volym eller enhet, kommer den fysiska storleken på behållaren att utökas till maximalt. (Du kan förhindra det genom att skapa en ny dynamisk behållare på målplatsen, montera den och sedan flytta filerna från den gamla behållaren till den nya.)</entry>
     <entry lang="sv" key="PASSWORD_CACHE_WIPED_SHORT">Lösenordscachen rensades</entry>
     <entry lang="sv" key="PASSWORD_CACHE_WIPED">Lösenord (och/eller bearbetat nyckelfilinnehåll) lagrade i VeraCrypt-drivrutinens cache har rensats.</entry>
@@ -743,7 +743,7 @@
     <entry lang="sv" key="LABEL">Etikett</entry>
     <entry lang="sv" key="CLUSTER_TOO_SMALL">Den valda klusterstorleken är för liten för den här volymstorleken. En större klusterstorlek kommer att användas i stället.</entry>
     <entry lang="sv" key="CANT_GET_VOLSIZE">Fel: Det går inte att hämta volymstorlek!\n\nSe till att den valda volymen inte används av systemet eller en applikation.</entry>
-    <entry lang="sv" key="HIDDEN_VOL_HOST_SPARSE">Dolda volymer får inte skapas i dynamiska behållare (glesa filer). För att ge rimlig förnekelse måste den dolda volymen skapas i en icke-dynamisk behållare.</entry>
+    <entry lang="sv" key="HIDDEN_VOL_HOST_SPARSE">Dolda volymer får inte skapas i dynamiska behållare (sparse-filer). För att ge rimlig förnekelse måste den dolda volymen skapas i en icke-dynamisk behållare.</entry>
     <entry lang="sv" key="HIDDEN_VOL_HOST_UNSUPPORTED_FILESYS">Guiden Skapa VeraCrypt-volym kan skapa en dold volym endast inom en FAT/exFAT- eller NTFS-volym.</entry>
     <entry lang="sv" key="HIDDEN_VOL_HOST_UNSUPPORTED_FILESYS_WIN2000">Under Windows 2000 kan guiden Skapa VeraCrypt-volym skapa en dold volym endast inom en FAT-volym.</entry>
     <entry lang="sv" key="HIDDEN_VOL_HOST_NTFS">Obs: FAT/exFAT-filsystemet är mer lämpligt för yttre volymer än NTFS-filsystemet (till exempel skulle den maximala möjliga storleken på den dolda volymen med största sannolikhet ha varit betydligt större om den yttre volymen hade formaterats som FAT/exFAT).</entry>
@@ -1020,7 +1020,7 @@
     <entry lang="sv" key="SHORTCUT">Kortkommando</entry>
     <entry lang="sv" key="CANNOT_USE_RESERVED_KEY">Fel: Det här kortkommandot är reserverat. Välj ett annat kortkommando.</entry>
     <entry lang="sv" key="SHORTCUT_ALREADY_IN_USE">Fel: Kortkommandot används redan.</entry>
-    <entry lang="sv" key="HOTKEY_REGISTRATION_ERROR">VARNING: En eller flera av VeraCrypts systemomfattande snabbtangenter kommer inte att fungera!\n\nSe till att andra program och operativsystemet inte använder samma kortkommando eller kortkommandon som VeraCrypt.</entry>
+    <entry lang="sv" key="HOTKEY_REGISTRATION_ERROR">VARNING: En eller flera av VeraCrypts systemomfattande kortkommandon kommer inte att fungera!\n\nSe till att inga andra program eller operativsystemet använder samma kortkommandon som VeraCrypt.</entry>
     <entry lang="sv" key="PAGING_FILE_CREATION_PREVENTED">Skapande av växlingsfiler har förhindrats.\n\nObservera att på grund av Windows-problem kan växlingsfiler inte placeras på VeraCrypt-volymer som inte tillhör systemet (inklusive systemfavoritvolymer). VeraCrypt stöder skapande av växlingsfiler endast på en krypterad systempartition/enhet.</entry>
     <entry lang="sv" key="SYS_ENC_HIBERNATION_PREVENTED">Ett fel eller inkompatibilitet hindrar VeraCrypt från att kryptera vilolägesfilen. Därför har viloläge förhindrats.\n\nObs: När en dator går i viloläge (eller går in i ett energisparläge), skrivs innehållet i dess systemminne till en vilolagringsfil som finns på systemenheten. VeraCrypt skulle inte kunna förhindra att krypteringsnycklar och innehållet i känsliga filer som öppnas i RAM-minnet sparas okrypterat till vilolagringsfilen.</entry>
     <entry lang="sv" key="HIDDEN_OS_HIBERNATION_PREVENTED">Viloläge har förhindrats.\n\nVeraCrypt stöder inte viloläge på dolda operativsystem som använder en extra startpartition. Observera att startpartitionen delas av både sken- och det dolda systemet. Därför måste VeraCrypt förhindra att det dolda systemet skriver till den delade startpartitionen och går i viloläge, för att förhindra dataläckor och problem när den återgår från viloläge.</entry>
@@ -1028,7 +1028,7 @@
     <entry lang="sv" key="MOUNTED_VOLUMES_UNMOUNTED">VeraCrypt-volymer har demonterats.</entry>
     <entry lang="sv" key="VOLUMES_UNMOUNTED_CACHE_WIPED">VeraCrypt-volymer har demonterats och lösenordscachen har rensats.</entry>
     <entry lang="sv" key="SUCCESSFULLY_UNMOUNTED">Demontering slutförd</entry>
-    <entry lang="sv" key="CONFIRM_BACKGROUND_TASK_DISABLED">VARNING: Om VeraCrypt-bakgrundsuppgiften inaktiveras kommer följande funktioner att inaktiveras:\n\n1) Snabbtangenter\n2) Automatisk demontering (t.ex. vid utloggning, oavsiktlig borttagning av värdenheten eller överskriden tidsgräns)\n3) Automatisk montering av favoritvolymer\n4) Aviseringar (t.ex. när skador på en dold volym förhindras)\n5) Ikonen i meddelandefältet\n\nObs: Du kan avsluta bakgrundsuppgiften när som helst genom att högerklicka på VeraCrypt-ikonen i meddelandefältet och välja "Avsluta".\n\nÄr du säker på att du vill inaktivera VeraCrypt-bakgrundsuppgiften permanent?</entry>
+    <entry lang="sv" key="CONFIRM_BACKGROUND_TASK_DISABLED">VARNING: Om VeraCrypt-bakgrundsuppgiften inaktiveras kommer följande funktioner att inaktiveras:\n\n1) Kortkommandon\n2) Automatisk demontering (t.ex. vid utloggning, oavsiktlig borttagning av värdenheten eller överskriden tidsgräns)\n3) Automatisk montering av favoritvolymer\n4) Aviseringar (t.ex. när skador på en dold volym förhindras)\n5) Ikonen i meddelandefältet\n\nObs: Du kan avsluta bakgrundsuppgiften när som helst genom att högerklicka på VeraCrypt-ikonen i meddelandefältet och välja &quot;Avsluta&quot;.\n\nÄr du säker på att du vill inaktivera VeraCrypt-bakgrundsuppgiften permanent?</entry>
     <entry lang="sv" key="CONFIRM_NO_FORCED_AUTOUNMOUNT">VARNING: Om det här alternativet är inaktiverat kommer volymer som innehåller öppna filer/mappar inte att kunna demonteras automatiskt.\n\nÄr du säker på att du vill inaktivera det här alternativet?</entry>
     <entry lang="sv" key="WARN_PREF_AUTO_UNMOUNT">VARNING: Volymer som innehåller öppna filer eller mappar kommer INTE att demonteras automatiskt.\n\nFör att förhindra detta aktiverar du följande alternativ i det här dialogfönstret: "Tvinga automatisk demontering även om volymen innehåller öppna filer eller mappar"</entry>
     <entry lang="sv" key="WARN_PREF_AUTO_UNMOUNT_ON_POWER">VARNING: När en bärbar dators batterinivå är låg kan Windows utelämna att skicka lämpliga meddelanden till aktiva applikationer som körs när datorn går in i energisparläge. Därför kan VeraCrypt misslyckas med att automatiskt demontera volymer i sådana fall.</entry>
@@ -1039,7 +1039,7 @@
     <entry lang="sv" key="DO_NOT_PROMPT_ME">Nej, fråga mig inte</entry>
     <entry lang="sv" key="NONSYS_INPLACE_ENC_NOTIFICATION_REMOVAL_NOTE">VIKTIGT: Tänk på att du kan återuppta processen för kryptering/dekryptering av valfri partition/volym som inte tillhör systemet genom att välja "Volymer" &gt; "Återuppta avbruten process" från menyraden i huvudfönstret i VeraCrypt.</entry>
     <entry lang="sv" key="SYSTEM_ENCRYPTION_SCHEDULED_BUT_PBA_FAILED">Du har schemalagt processen för kryptering eller dekryptering av systempartitionen/enheten. Men autentiseringen före start misslyckades (eller kringgicks).\n\nObs: Om du dekrypterade systempartitionen/enheten i miljön före start kan du behöva slutföra processen genom att välja "System" &gt; "Dekryptera systempartition/enhet permanent" från menyraden i huvudfönstret i VeraCrypt.</entry>
-    <entry lang="sv" key="CONFIRM_EXIT">VARNING: Om VeraCrypt avslutas nu, kommer följande funktioner att inaktiveras:\n\n1) Snabbtangenter\n2) Automatisk demontering (t.ex. vid utloggning, oavsiktlig borttagning av värdenhet, tidsgräns, etc.)\n3) Automatisk montering av favoritvolymer\n4) Aviseringar (t.ex. när skada på dold volym förhindras)\n\nObs: Om du inte vill att VeraCrypt ska köras i bakgrunden, inaktivera VeraCrypt-bakgrundsuppgiften i inställningarna (och, om nödvändigt, inaktivera den automatiska starten av VeraCrypt i inställningarna).\n\nÄr du säker på att du vill att VeraCrypt ska avslutas?</entry>
+    <entry lang="sv" key="CONFIRM_EXIT">VARNING: Om VeraCrypt avslutas nu, kommer följande funktioner att inaktiveras:\n\n1) Kortkommandon\n2) Automatisk demontering (t.ex. vid utloggning, oavsiktlig borttagning av värdenhet, tidsgräns, etc.)\n3) Automatisk montering av favoritvolymer\n4) Aviseringar (t.ex. när skada på dold volym förhindras)\n\nObs: Om du inte vill att VeraCrypt ska köras i bakgrunden, inaktivera VeraCrypt-bakgrundsuppgiften i inställningarna (och, om nödvändigt, inaktivera den automatiska starten av VeraCrypt i inställningarna).\n\nÄr du säker på att du vill att VeraCrypt ska avslutas?</entry>
     <entry lang="sv" key="CONFIRM_EXIT_UNIVERSAL">Avsluta?</entry>
     <entry lang="sv" key="CHOOSE_ENCRYPT_OR_DECRYPT">VeraCrypt har inte tillräcklig information för att avgöra om kryptering eller dekryptering ska utföras.</entry>
     <entry lang="sv" key="CHOOSE_ENCRYPT_OR_DECRYPT_FINALIZE_DECRYPT_NOTE">VeraCrypt har inte tillräcklig information för att avgöra om kryptering eller dekryptering ska utföras.\n\nObs: Om du dekrypterade systempartitionen/enheten i miljön före start kan du behöva slutföra processen genom att klicka på Dekryptera.</entry>
@@ -1293,7 +1293,7 @@
 VARNING: När du har följt dessa steg måste volymlösenordet alltid anges med den amerikanska tangentbordslayouten. Detta säkerställs automatiskt endast i miljön före start.</entry>
     <entry lang="sv" key="SYS_FAVORITES_KEYBOARD_WARNING">Systemfavoritvolymer kommer att monteras med hjälp av lösenordet för autentisering före start. Om någon systemfavoritvolym använder ett annat lösenord, kommer den inte att monteras.</entry>
     <entry lang="sv" key="SYS_FAVORITES_ADMIN_ONLY_INFO">Observera att om du behöver förhindra att normala VeraCrypt-volymåtgärder (som "Demontera alla", automatisk demontering, etc.) påverkar systemets favoritvolymer, bör du aktivera alternativet "Tillåt endast administratörer att visa och demontera systemfavoritvolymer i VeraCrypt". Dessutom, när VeraCrypt körs utan administratörsbehörighet (standard på Windows Vista och senare), kommer systemets favoritvolymer inte att visas i enhetsbokstavslistan i VeraCrypt-huvudapplikationsfönstret.</entry>
-    <entry lang="sv" key="SYS_FAVORITES_ADMIN_ONLY_WARNING">VIKTIGT: Tänk på att om det här alternativet är aktiverat och VeraCrypt inte har administratörsbehörighet, visas INTE monterade systemfavoritvolymer i VeraCrypt-applikationsfönstret och de kan inte demonteras. Om du till exempel behöver demontera en systemfavoritvolym, högerklicka på VeraCrypt-ikonen (i Start-menyn) och välj "Kör som administratör" först. Samma begränsning gäller för "Demontera alla"-funktionen, "Automatisk demontering"-funktioner, "Demontera alla"-snabbtangenter, etc.</entry>
+    <entry lang="sv" key="SYS_FAVORITES_ADMIN_ONLY_WARNING">VIKTIGT: Tänk på att om det här alternativet är aktiverat och VeraCrypt inte har administratörsbehörighet, visas INTE monterade systemfavoritvolymer i VeraCrypt-applikationsfönstret och de kan inte demonteras. Om du till exempel behöver demontera en systemfavoritvolym, högerklicka på VeraCrypt-ikonen (i Start-menyn) och välj &quot;Kör som administratör&quot; först. Samma begränsning gäller för &quot;Demontera alla&quot;-funktionen, &quot;Automatisk demontering&quot;-funktioner, &quot;Demontera alla&quot;-kortkommandon, etc.</entry>
     <entry lang="sv" key="SETTING_REQUIRES_REBOOT">Observera att den här inställningen träder i kraft först efter att operativsystemet har startat om.</entry>
     <entry lang="sv" key="COMMAND_LINE_ERROR">Fel vid analys av kommandoraden.</entry>
     <entry lang="sv" key="RESCUE_DISK">Återställningsdisk</entry>
@@ -1494,8 +1494,8 @@ VARNING: När du har följt dessa steg måste volymlösenordet alltid anges med 
     <entry lang="sv" key="LINUX_ENTERING_POWERSAVING">Systemet går in i energisparläge</entry>
     <entry lang="sv" key="LINUX_LOGIN_ACTION">Åtgärder som ska utföras när användaren loggar in</entry>
     <entry lang="sv" key="LINUX_CLOSE_EXPL_ON_UNMOUNT">Stäng alla Utforskar-fönster för volym som demonteras</entry>
-    <entry lang="sv" key="LINUX_HOTKEYS">Snabbtangenter</entry>
-    <entry lang="sv" key="LINUX_SYSTEM_HOTKEYS">Systemomfattande snabbtangenter</entry>
+    <entry lang="sv" key="LINUX_HOTKEYS">Kortkommandon</entry>
+    <entry lang="sv" key="LINUX_SYSTEM_HOTKEYS">Systemomfattande kortkommandon</entry>
     <entry lang="sv" key="LINUX_SOUND_NOTIFICATION">Spela upp systemaviseringsljud efter montering/demontering</entry>
     <entry lang="sv" key="LINUX_CONFIRM_AFTER_UNMOUNT">Visa bekräftelsemeddelanderutan efter demontering</entry>
     <entry lang="sv" key="LINUX_VC_QUITS">VeraCrypt avslutas</entry>
